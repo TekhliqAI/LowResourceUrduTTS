@@ -1,11 +1,12 @@
-import FeaturedSection from "@/components/FeaturedSection";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import UploadSection from "@/components/UploadSection";
+import FeaturedCard from "@/components/FeaturedCard";
+import FeaturedSection from "@/components/FeaturedSection";
 
 export default function Home() {
   return (
-    <main className="bg-[#0c0c0c] ">
+    <main>
       <Header />
       <UploadSection />
       <FeaturedSection />
