@@ -1,11 +1,9 @@
-import { Header } from "@/components/header";
-import { Button } from "@/components/ui/button";
-import UploadSection from "@/components/uploadSection";
-import Image from "next/image";
+import { Header } from "@/components/Header";
+import UploadSection from "@/components/UploadSection";
 
 export default function Home() {
   return (
-    <main>
+    <main className="bg-[#0c0c0c] ">
       <Header />
       <UploadSection />
     </main>

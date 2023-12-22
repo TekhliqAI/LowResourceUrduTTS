@@ -4,7 +4,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Arabic OCR",
+  title: "Tadween UI",
   description: "Generate arabic text digitally from images",
 };
 
