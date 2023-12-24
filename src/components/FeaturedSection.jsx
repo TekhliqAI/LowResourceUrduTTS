@@ -5,30 +5,24 @@ const FeaturedSection = () => {
   return (
     <section className="px-36 border-b-[1px]  border-white border-opacity-20">
       <FeaturedCard
-        title="Lorem ipsum dolor sit amet consectetur"
-        text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime eos ex optio dicta, quam, quis deserunt praesentium eius ullam reprehenderit in similique ratione exercitationem perspiciatis? Mollitia harum eius ccusamus ad
-      "
-        imgUrl={
-          "https://images.unsplash.com/photo-1703249181171-22037ab2afd8?q=80&w=1748&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        }
+        title="TRANSFORMING INK INTO DIGITAL INTELLIGENCE"
+        buttonTxt="Discover More"
+        text="Revolutionize the way handwritten texts are digitized with our state-of-the-art OCR technology. Unleash the power to convert varied handwriting styles into accurate, editable digital formats effortlessly. Ideal for historical archives, medical records, and educational materials. Experience seamless integration of analog and digital worlds."
+        imgUrl="/1.png"
       />
       <FeaturedCard
         imgRight
-        title="Lorem ipsum dolor sit amet consectetur"
-        text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime eos ex optio dicta, quam, quis deserunt praesentium eius ullam reprehenderit in similique ratione exercitationem perspiciatis? Mollitia harum eius ccusamus ad
-      "
-        imgUrl={
-          "https://images.unsplash.com/photo-1703244355676-95561db44fb1?q=80&w=1866&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        }
+        title="REIMAGINING AUDIO WITH ARTIFICIAL BRILLIANCE"
+        buttonTxt="Explore Now"
+        text="Dive into the future of sound with our Real-Time Audio Translation and Generation tool. Break language barriers with instant translation, maintaining the speaker's original tone and emotion. Perfect for global interactions, this tool not only translates but transcends cultural differences, connecting the world through voice."
+        imgUrl="/2.png"
       />
 
       <FeaturedCard
-        title="Lorem ipsum dolor sit amet consectetur"
-        text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime eos ex optio dicta, quam, quis deserunt praesentium eius ullam reprehenderit in similique ratione exercitationem perspiciatis? Mollitia harum eius ccusamus ad
-      "
-        imgUrl={
-          "https://plus.unsplash.com/premium_photo-1675019220099-670253e26a71?q=80&w=1772&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        }
+        title="SAFEGUARDING TRUTH IN THE DIGITAL REALM"
+        buttonTxt="Learn More"
+        text="Stay ahead of deepfakes with our cutting-edge AI detection system. Protect integrity in media, ensure authenticity in communication, and uphold truth in the digital age. Our advanced technology meticulously analyzes video content to identify and flag deepfakes, offering a shield against digital deception."
+        imgUrl="/3.png"
       />
     </section>
   );
