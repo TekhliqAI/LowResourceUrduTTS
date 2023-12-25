@@ -4,6 +4,7 @@ import UploadSection from "@/components/UploadSection";
 import FeaturedCard from "@/components/FeaturedCard";
 import FeaturedSection from "@/components/FeaturedSection";
 import FaqSection from "@/components/FaqSection";
+import ScrollToTop from "@/components/scrollToTop";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <FeaturedSection />
       <FaqSection />
       <Footer />
+      <ScrollToTop />
     </main>
   );
 }
