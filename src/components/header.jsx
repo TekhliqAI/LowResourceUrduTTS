@@ -1,10 +1,13 @@
+import Link from "next/link";
 import { Button } from "./ui/button";
 
 export const Header = () => {
   return (
     <header className=" text-white py-2 flex justify-between px-12 items-center border-b-[1px] border-white border-opacity-20">
       <section className="Logo">
-        <h2 className="font-semibold uppercase text-gray-100"> Tadween</h2>
+        <Link href="/">
+          <p className="font-semibold uppercase text-gray-100 ">Tadween</p>
+        </Link>
       </section>
 
       <nav className="flex gap-6 items-center font-medium text-gray-100 ">
