@@ -1,5 +1,5 @@
 import { Bebas_Neue } from "next/font/google";
-import Uploader from "./uploader";
+import Uploader from "./Uploader";
 
 const bebas_neue = Bebas_Neue({ subsets: ["latin"], weight: "400" });
 

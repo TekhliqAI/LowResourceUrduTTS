@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import { Button } from "./ui/button";
+import { Button } from "./ui/Button";
 import { FaChevronUp } from "react-icons/fa";
 import { cn } from "../lib/utils";
 
