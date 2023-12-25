@@ -1,5 +1,5 @@
-import { Button } from "./ui/button";
 import { Bebas_Neue } from "next/font/google";
+import Uploader from "./uploader";
 
 const bebas_neue = Bebas_Neue({ subsets: ["latin"], weight: "400" });
 
@@ -13,12 +13,7 @@ const UploadSection = () => {
       <p className={`text-[#b4b4b4] text-lg font-medium`}>
         AI powered OCR technology convert it into a digital typed text
       </p>
-      <div className="h-80 bg-[#121212] w-full p-8 rounded-2xl mt-8">
-        <div className="w-full h-full flex-col text-[#323232]  border-2 border-dashed border-[#323232] rounded-md flex items-center justify-center">
-          <p className="text-2xl mb-6">Drag & Drop Image Here to Upload</p>
-          <Button variant="secondary"> Choose Files</Button>
-        </div>
-      </div>
+      <Uploader />
     </section>
   );
 };

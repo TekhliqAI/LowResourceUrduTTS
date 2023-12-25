@@ -1,5 +1,3 @@
-import React from "react";
-
 export const Footer = () => {
   return (
     <footer className="flex justify-between items-center px-12 py-6  border-t-[1px] border-white border-opacity-20">
