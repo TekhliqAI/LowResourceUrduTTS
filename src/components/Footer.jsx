@@ -6,7 +6,7 @@ export const Footer = () => {
       <Link href="/">
         <p className="font-semibold uppercase text-[#b4b4b4]">TADWEEN</p>
       </Link>
-      <p className=" text-[#b4b4b4]">Copyright ©️ 2023 Tekhliq. All rights reserved.</p>
+      <p className=" text-[#b4b4b4] pr-8" >Copyright ©️ 2023 Tekhliq. All rights reserved.</p>
     </footer>
   );
 };
