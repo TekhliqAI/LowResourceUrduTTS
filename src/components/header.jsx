@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Button } from "./ui/Button";
 
-export const Header = () => {
+const Header = () => {
   return (
     <header
       id="Home"
@@ -26,3 +26,5 @@ export const Header = () => {
     </header>
   );
 };
+
+export default Header;

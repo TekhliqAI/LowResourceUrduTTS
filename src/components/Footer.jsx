@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export const Footer = () => {
+const Footer = () => {
   return (
     <footer className="flex justify-between items-center px-12 py-6  border-t-[1px] border-white border-opacity-20">
       <Link href="/">
@@ -10,3 +10,5 @@ export const Footer = () => {
     </footer>
   );
 };
+
+export default Footer;

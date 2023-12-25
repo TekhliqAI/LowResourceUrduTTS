@@ -1,5 +1,5 @@
-import { Footer } from "../components/Footer";
-import { Header } from "../components/Header";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
 import UploadSection from "../components/UploadSection";
 import FeaturedSection from "../components/FeaturedSection";
 import FaqSection from "../components/FaqSection";
