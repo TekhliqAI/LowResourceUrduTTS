@@ -1,5 +1,5 @@
 "use client";
-import { cn, bytesToMB, extractFileName } from "@/lib/utils";
+import { cn, bytesToMB, extractFileName } from "../lib/utils";
 import { useState } from "react";
 import Dropzone from "react-dropzone";
 

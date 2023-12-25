@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { Button } from "./ui/button";
 import { FaChevronUp } from "react-icons/fa";
-import { cn } from "@/lib/utils";
+import { cn } from "../lib/utils";
 
 const ScrollToTop = () => {
   const [visible, setVisible] = useState(false);
