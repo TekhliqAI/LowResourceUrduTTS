@@ -4,6 +4,7 @@ import UploadSection from "@/components/UploadSection";
 import FeaturedSection from "@/components/FeaturedSection";
 import FaqSection from "@/components/FaqSection";
 import ScrollToTop from "@/components/scrollToTop";
+import ContactForm from "@/components/ContactForm";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <UploadSection />
       <FeaturedSection />
       <FaqSection />
+      <ContactForm />
       <Footer />
       <ScrollToTop />
     </main>
