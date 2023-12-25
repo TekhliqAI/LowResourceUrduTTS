@@ -3,7 +3,10 @@ import { Button } from "./ui/button";
 
 export const Header = () => {
   return (
-    <header className=" text-white py-2 flex justify-between px-12 items-center border-b-[1px] border-white border-opacity-20">
+    <header
+      id="Home"
+      className=" text-white py-2 flex justify-between px-12 items-center border-b-[1px] border-white border-opacity-20"
+    >
       <section className="Logo">
         <Link href="/">
           <p className="font-semibold uppercase text-gray-100 ">Tadween</p>
@@ -11,10 +14,11 @@ export const Header = () => {
       </section>
 
       <nav className="flex gap-6 items-center font-medium text-gray-100 ">
-        <li className="cursor-pointer">Home</li>
-        <li className="cursor-pointer">Features</li>
-        <li className="cursor-pointer">FAQ</li>
-        <li className="cursor-pointer">Contact</li>
+        <Link href="/#Home">Home</Link>
+        <Link href="/#Projects">Projects</Link>
+        <Link href="/#FAQ">FAQ</Link>
+        <Link href="/#Contact">Contact</Link>
+
         <li>
           <Button variant="secondary">Sign in</Button>
         </li>

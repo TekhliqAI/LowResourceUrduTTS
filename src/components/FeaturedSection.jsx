@@ -3,7 +3,7 @@ import FeaturedCard from "./FeaturedCard";
 
 const FeaturedSection = () => {
   return (
-    <section className="px-36 border-b-[1px]  border-white border-opacity-20">
+    <section id="Projects" className="px-36 border-b-[1px]  border-white border-opacity-20">
       <FeaturedCard
         title="TRANSFORMING INK INTO DIGITAL INTELLIGENCE"
         buttonTxt="Discover More"
