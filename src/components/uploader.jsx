@@ -51,8 +51,8 @@ const Uploader = () => {
       </Dropzone>
 
       {selectedFile && (
-        <section className=" w-[800px] text-[#000] py-4 bg-[#121212] px-8 rounded-md mt-8 ">
-          <div className="grid grid-cols-10 gap-1 text-[#616161] border-b-[1px] border-white border-opacity-10 pb-2 mb-4">
+        <section className=" w-[800px] text-[#616161] py-4 bg-[#F4F7FA] px-8 rounded-md mt-8 ">
+          <div className="grid grid-cols-10 gap-1 text-[#000] border-b-black border-b-[1px] border-opacity-10  pb-2 mb-4">
             <div className="col-span-8 ">Name</div>
             <div className="col-span-1">Type</div>
             <div className="col-span-1">Size</div>
