@@ -26,7 +26,7 @@ const ScrollToTop = () => {
   return (
     <Button
       className={cn(
-        "fixed bottom-5 right-5  text-[#b4b4b4] bg-black  hover:text-black border-2 border-white border-opacity-10",
+        "fixed bottom-5 right-5  text-[#F4F7FA] bg-black  hover:text-black border-2 border-white border-opacity-10",
         visible ? "" : "hidden"
       )}
       onClick={handleScroll}

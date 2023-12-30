@@ -35,7 +35,7 @@ const FaqSection = () => {
   return (
     <section
       id="FAQ"
-      className="flex flex-col px-80 border-b-[1px] py-20 text-white gap-16 items-center border-white border-opacity-20"
+      className="flex flex-col px-80 border-b-[1px] py-20 text-black gap-16 items-center border-white border-opacity-20"
     >
       <h2 className={`${bebas.className} text-4xl font-semibold`}>Frequently Asked Questions</h2>
 

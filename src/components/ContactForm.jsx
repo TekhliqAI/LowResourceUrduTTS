@@ -7,7 +7,7 @@ const ContactForm = () => {
   return (
     <section
       id="Contact"
-      className="flex flex-col px-80 border-b-[1px] py-20 text-white gap-16 items-center border-white border-opacity-20"
+      className="flex flex-col px-80 border-b-[1px] py-20 text-black gap-16 items-center border-black border-opacity-20"
     >
       <h2 className={`${bebas.className}  text-4xl font-semibold  `}>Contact Us</h2>
       <form>
@@ -20,7 +20,7 @@ const ContactForm = () => {
               type="text"
               id="name"
               name="name"
-              className="w-full px-4 py-2 border bg-[#0c0c0c] border-white border-opacity-20 rounded-md focus:outline-none focus:border-opacity-40"
+              className="w-full px-4 py-2 border bg-[#F4F7FA] border-white border-opacity-20 rounded-md focus:outline-none focus:border-opacity-40"
             />
           </div>
           <div className="mb-4">
@@ -31,7 +31,7 @@ const ContactForm = () => {
               type="email"
               id="email"
               name="email"
-              className="w-full px-4 py-2 border bg-[#0c0c0c] border-white border-opacity-20 rounded-md focus:outline-none focus:border-opacity-40"
+              className="w-full px-4 py-2 border bg-[#F4F7FA] border-white border-opacity-20 rounded-md focus:outline-none focus:border-opacity-40"
             />
           </div>
         </div>
@@ -43,7 +43,7 @@ const ContactForm = () => {
             id="message"
             name="message"
             rows="4"
-            className="w-full px-4 py-2 border bg-[#0c0c0c] border-white border-opacity-20 rounded-md focus:outline-none focus:border-opacity-40"
+            className="w-full px-4 py-2 border bg-[#F4F7FA] border-white border-opacity-20 rounded-md focus:outline-none focus:border-opacity-40"
           ></textarea>
         </div>
         <Button className="w-full" variant="secondary">
